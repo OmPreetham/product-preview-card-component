@@ -2,10 +2,10 @@ const ProductPreviewCard = () => {
   return (
     <main>
       <section>
-        <div className="product-image-container">
+        <div>
           <picture>
             <source
-              media="(min-width: 550px)"
+              media="(min-width: 600px)"
               srcset="./images/image-product-desktop.jpg"
             />
             <img
