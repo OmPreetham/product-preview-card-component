@@ -35,6 +35,8 @@
 
 body {
   display: flex;
+  align-items: center;
+  justify-self: center;
   height: 100vh;
   background-color: var(--cream);
   color: var(--dark-grayish-blue);
@@ -51,9 +53,7 @@ main {
 section {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  min-width: 400px;
-  width: calc(30rem + 10vw);
-  max-width: 600px;
+  width: clamp(13rem, 30rem + 10vw, 40rem);
   background-color: var(--white);
   border: 1px solid var(--black);
   border-radius: 10px;
@@ -135,13 +135,13 @@ button:focus {
   color: var(--white);
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 549px) {
   img {
     border-top-right-radius: 10px;
     border-bottom-left-radius: 0;
   }
   section {
-    width: 21rem;
+    width: 23rem;
     grid-template-columns: none;
   }
   div:nth-of-type(2) {
