@@ -141,7 +141,7 @@ button:focus {
     border-bottom-left-radius: 0;
   }
   section {
-    width: 23rem;
+    width: 22rem;
     grid-template-columns: none;
   }
   div:nth-of-type(2) {
