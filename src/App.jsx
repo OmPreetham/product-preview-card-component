@@ -1,7 +1,11 @@
 import ProductPreviewCard from './assets/components/ProductPreviewCard'
 
 function App() {
-  return <ProductPreviewCard />
+  return (
+    <main>
+      <ProductPreviewCard />
+    </main>
+  )
 }
 
 export default App
