@@ -2,6 +2,8 @@
 
 This is a simple product preview card component built using Vite (a next-generation frontend tooling) and React. It showcases basic information about a product such as its name, image, price, and a brief description.
 
+![Preview](/public/preview.png)
+
 ## Features
 
 - Display product name, image, price, and description.
