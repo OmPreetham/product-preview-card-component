@@ -1,4 +1,4 @@
-import ProductPreviewCard from './assets/components/ProductPreviewCard'
+import ProductPreviewCard from './components/ProductPreviewCard'
 
 function App() {
   return (
